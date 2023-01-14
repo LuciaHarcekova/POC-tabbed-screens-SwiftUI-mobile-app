@@ -4,8 +4,9 @@
 
 Create multiple screens and implement a tab bar in SwiftUI by TabView.
 
+## Code
 
-''''
+```
 TabView {
     HomeView()
         .tabItem {
@@ -23,4 +24,4 @@ TabView {
             Image(systemName: "phone.fill")
         }
 }
-'''
+```
